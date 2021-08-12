@@ -1,0 +1,52 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.list-items__no-bullets {
+    list-style-type: none;
+}
+
+.main__section {
+    margin: 1rem;
+    padding: 2rem 1rem;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.text__align-center {
+    text-align: center;
+}
+
+.representative-info {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 2 0;
+    justify-content: flex-start;
+}
+
+.personal-info__name {
+    font-size: xx-large;
+    font-weight: bold;
+}
+ img {
+     width: 100%;
+ }
+
+ .representative-info__photo img {
+     width: 240px;
+     height: 320px;
+     object-fit: cover;
+ }
+
+ .social-media__list {
+     display: flex;
+     flex-flow: row wrap;
+ }
+
+ .social-media__list > div {
+     flex: 2 50%;
+ } 
